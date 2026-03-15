@@ -1,4 +1,7 @@
 # High Score Updater
+Problem: The High Score Tracker  
+
+Goal: Create a system that generates a random score for a game session and compares it against a stored high score in a file. If the new score is higher than the stored score (or if no score exists), update the file with the new high score.
 
 A simple Python script to track and update high scores. This program generates a random number between **1 and 100**, compares it with the previous high score stored in a text file (`hiscore.txt`), and updates it if a new high score is achieved.
 
